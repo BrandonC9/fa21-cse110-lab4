@@ -27,4 +27,16 @@
 14. Comparison
     A. true - '2' maps to its number representation, 2 is greater than 1
     B. false - both numbers are strings, '12' comes before '2' lexicographically
-    C. 
+    C. true - 2 maps to its string representation, '2' is equal to '2'
+    D. false - === does not convert the values to the same type, numerical 2 is not equal to string 2
+    E. false - true maps to 1, 1 is not equal to 2
+    F. true - the Boolean() function evaluates to true if the input parameter is not undefined or null. A Boolean object set to "false" is evaluated to true, and true is equal to true.
+15. When using ==, the values are converted to the same type before comparison. === does not convert the values to the same type, and therefore the values must be completely identical for the expression to return true.
+16. see part2-question16.js
+17. The resulting array will be [2,4,6]. modifyArray iterates through each element in the input array. In each iteration, there is a callback to 'doSomething', which multiplies the current element by 2. This new value is the pushed back to newArr.
+18. see part2.question18.js
+19. Output will be:
+    1
+    4
+    3
+    2
