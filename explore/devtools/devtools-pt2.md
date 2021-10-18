@@ -1,0 +1,2 @@
+1. The tool is not summing the input numbers correctly. Instead of the numbers being summed, they are treated as strings and are concatenated to one another.
+2. I would use the parseInt() function to turn the input numbers from strings to numbers. See fix.png.
